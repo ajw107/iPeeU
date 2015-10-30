@@ -27,6 +27,7 @@ Arduino Code to brute-force unlock an iPhone iPad PIN code / Passcode etc (possi
 - Add a LDR (Light Dependant Resistor) to a PIN and monitor the value that returns for a sudden change, then we have the PIN
 - Sometimes the iDevice will not recognise it as a keyboard (just unplug it and plug it in again until it does). I'd like to figure out a way of detecting that the iDevice has not recognised it, Then reset through software until it does, or someway of making it so you don't have to unplug it until it recognises it (especially as in 'is disabled, connect to itunes' mode, as you can't see any feedback on the screen to know if it is recognised and working or not)
 - Somehow power the iDevice at the same time
+- See if keycodes above 116 (see https://www.win.tue.nl/~aeb/linux/kbd/scancodes-14.html ) may hold the key to either making this program more robust as far as connecting to the iDevice and/or replacing my initial TAB then ESC then 4xBACKSAPCE to make sure the PIN entry screen is up (even though [and the biggest problem I had to overcome with this code] you can't see it if the iDevice is locked)
 
 # Instructions:
 ## ***once only***
